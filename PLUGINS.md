@@ -74,7 +74,6 @@ A list of recommended plugins.
 * flow-strip-types _- on production_
 * strict-mode
 * undefined-to-void
-* undeclared-variables-check
 
 ### Async [↑](#table-of-contents)
 
@@ -136,3 +135,4 @@ A list of recommended plugins.
 * strong-mode => why: _until v8 implements it_
 * inline-functions => why: _outdated_
 * inline => why: _also outdated_
+* undeclared-variables-check => why: _not usable with node_

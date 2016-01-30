@@ -49,6 +49,7 @@
         "syntax-function-sent",
         "syntax-flow",
         "transform-undefined-to-void",
+        "conditional-compile",
         "require-root-rewrite",
         "strict-equality",
         "implicit-return",

@@ -33,9 +33,11 @@ dist:
 	mkdir -p dist/
 
 tmp/%.js: src/%.js tmp
+	$(ESLINT) --cache "$<"
 	$(CONCAT) $(INC) "$<"
 
 lib/%.js: tmp/%.js lib
+
 	$(BABEL) "$<" --out-file $@ --source-maps
 	$(MERGE) "$<.map" "$@.map"
 
@@ -50,9 +52,9 @@ dist/bundle.js: $(LIB) dist
 all: build
 
 lint:
-	$(ESLINT) --cache ./src
+	$(ESLINT) --cache ./src ./concat
 
-build: $(LIB) lint
+build: $(LIB)
 
 browserify: dist/bundle.js
 
