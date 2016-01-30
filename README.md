@@ -7,7 +7,7 @@ A base project for making JavaScript sane.
 Drop what you want, keep what you like:
 
 * Babel and many [plugins](/PLUGINS.md) :)
-* Bluebird as a faster replacement for Promises
+* Bluebird as a faster replacement for native Promises
 * Fast.js for replacing slower default functions
 * Ramda and ramda-fantasy for functional programming
 * Browserify for working with the browser
