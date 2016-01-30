@@ -1,10 +1,68 @@
 {
+  "plugins": [["trace", {
+    "env": {
+      "production": {
+        "strip": true
+      }
+    }
+  }]],
   "env": {
     "production": {
       "presets": ["es2015", "stage-0"],
+      "plugins": [
+        "transform-strict-mode",
+        "syntax-async-functions",
+        "syntax-async-generators",
+        "syntax-function-sent",
+        "syntax-flow",
+        "transform-member-expression-literals",
+        "transform-merge-sibling-variables",
+        "transform-minify-booleans",
+        "transform-property-literals",
+        "transform-remove-console",
+        "transform-remove-debugger",
+        "transform-simplify-comparison-operators",
+        "transform-undefined-to-void",
+        "transform-node-env-inline",
+        "conditional-compile",
+        "source-map-support",
+        "require-root-rewrite",
+        "strict-equality",
+        "implicit-return",
+        "trace",
+        "operator-overload",
+        "macros",
+        "transform-flow-strip-types",
+        ["transform-async-to-module-method", {
+          "module": "bluebird",
+          "method": "coroutine"
+        }],
+        "closure-elimination",
+      ]
     },
     "development": {
       "presets": ["es2015", "stage-0"],
+      "plugins": [
+        "transform-strict-mode",
+        "syntax-async-functions",
+        "syntax-async-generators",
+        "syntax-function-sent",
+        "syntax-flow",
+        "transform-undefined-to-void",
+        "require-root-rewrite",
+        "strict-equality",
+        "implicit-return",
+        "trace",
+        "operator-overload",
+        "macros",
+        "typecheck",
+        "transform-flow-comments",
+        ["transform-async-to-module-method", {
+          "module": "bluebird",
+          "method": "coroutine"
+        }],
+        "closure-elimination"
+      ]
     }
   }
 }

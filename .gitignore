@@ -2,6 +2,7 @@
 *.map
 *.swp
 *.log
+.eslintcache
 .npm
 .node_repl_history
 node_modules

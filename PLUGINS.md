@@ -103,9 +103,7 @@ A list of recommended plugins.
 * typecheck _- development only, before flow-comments_
 * implicit-return => why: _fits functional style_
 * trace => why: _better debug, great maintainer_
-* inline-functions => why: _optimization hacks_
 * strict-equality => why: _enforces safer style_
-* null-safe-accessor => why: _safer code, fits functional style_
 * conditional-compile => why: _dead code elimintation_
 * require-root-rewrite => why: _makes require easier to use_
 * closure-elimination => why: _better performance, great maintainer_
@@ -136,4 +134,5 @@ A list of recommended plugins.
 
 * runtime => why: _reduces memory consumption at cost of performance_
 * strong-mode => why: _until v8 implements it_
-* inline => why: _still a wip, but will get implement once safe_
+* inline-functions => why: _outdated_
+* inline => why: _also outdated_

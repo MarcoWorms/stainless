@@ -14,6 +14,10 @@ WATCH = node_modules/.bin/watch
 BUNDLE = node_modules/.bin/browserify
 WATCHY = node_modules/.bin/watchify
 EXTERN = node_modules/.bin/exorcist
+ESLINT = node_modules/.bin/eslint
+MOCHA = node_modules/.bin/mocha
+MOCHA2 = node_modules/.bin/_mocha
+ISTANBUL = node_modules/.bin/istanbul
 
 ##
 # file targets
@@ -45,7 +49,10 @@ dist/bundle.js: $(LIB) dist
 
 all: build
 
-build: $(LIB)
+lint:
+	$(ESLINT) --cache ./src
+
+build: $(LIB) lint
 
 browserify: dist/bundle.js
 
@@ -60,17 +67,22 @@ loc:
 	wc --lines src/*
 
 clean:
-	rm -rf lib tmp
+	rm -rf lib tmp dist coverage
 
 watch:
 	$(WATCH) "make build" ./src ./concat
 
+test: lint
+	$(MOCHA) --reporter dot --ui bdd --compilers js:babel-register
+
+coverage: build
+	$(ISTANBUL) cover $(MOCHA2) -- --reporter dot --ui bdd --compilers js:babel-register
 
 ##
 # special rules
 ##
 
-.PHONY: build loc clean watch browserify watchify just-watchify
+.PHONY: build loc clean watch browserify watchify just-watchify lint coverage
 
 .SECONDARY: $(TMP)
 
