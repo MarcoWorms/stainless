@@ -1,0 +1,8 @@
+*.es5.js
+*.map
+*.swp
+*.log
+.npm
+.node_repl_history
+node_modules
+coverage
