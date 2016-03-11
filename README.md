@@ -14,7 +14,7 @@ Drop what you want, keep what you like:
 * Mocha, Chai and Sinon for testing, because I like them
 * Makefile for automation (gulp is not worth to me)
 
-#### Notes
+#### Customization Notes
 
 You may like to:
 
@@ -22,7 +22,7 @@ You may like to:
 (remember: Ramda is faster, but Mori's immutable)
 * Go for a more idiomatic route and use Immutable.js instead of Ramda and Mori.
 (remember to drop non-idiomatic babel syntax plugins too)
-* Not using Fast.js? drop it and do it the way you like.
+* Not using Fast.js? drop it.
 * Or do like me and go with the standard package :)
 
 It's all up to you.
@@ -48,6 +48,35 @@ Clone the repo and:
 * __run npm install__
 * __make test__
 * You're ready to go baby :)
+
+## Recommendations
+
+Other fun/useful functional programming packages:
+
+* [Sanctuary](https://github.com/plaid/sanctuary): slower but safer
+alternative to ramda-fantasy.
+* [Bilby.js](https://github.com/puffnfresh/bilby.js): from the creator of fantasy-land,
+kinda joins Ramda and algebraic data types into one complete library. Slower
+than sanctuary because of internal use of curry, simulated strong types and
+function overloading.
+* [Folktale](https://github.com/origamitower/folktale): repository for a
+reworked version of folktale, a great collection of algebraic types. The
+original folktale library was also somewhat slow, but faster than Sanctuary
+and Bilby.
+* [Algebraic](https://github.com/tel/js-algebraic): alternative to
+ramda-fantasy, not sure if fantasy-land compatible. Looks great but I didn't
+not tested.
+* [Monet.js](http://cwmyers.github.io/monet.js/): another algebraic data types
+implementation, not fantasy-land compatible.
+* [Lodash and Lodash-fp](https://github.com/lodash/lodash): for more
+performance at cost of not being sane.
+* [Most](https://github.com/cujojs/most): monadic streams.
+* [creed](https://github.com/briancavalier/creed): async coroutines for
+ES2015, fantasy-land compatible.
+* [RxJS](https://github.com/Reactive-Extensions/RxJS): lazy reactive
+library for js.
+* [Bacon.js](https://github.com/baconjs/bacon.js) Functional reactive
+programming for js.
 
 ## Unlicense
 
