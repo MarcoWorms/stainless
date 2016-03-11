@@ -33,7 +33,8 @@ It's all up to you.
 
 Clone the repo and:
 
-* __delete:__ PLUGIN.md, README.md and ./src/delete-me
+* __delete:__ PLUGIN.md
+* __rewrite:__ README.md to describe your repo
 * __edit:__ .babelrc _to fit your needs_
 * __edit:__ package.json:
   * Replace _stainless_ with the name of the your package
@@ -49,7 +50,7 @@ Clone the repo and:
 * __edit the Makefile__
 * __run npm install__
 * __make test__
-* __npm package? edit .gitignore to not ignore dist and lib__
+* __edit:__ .gitignore to not ignore dist and lib when working on a npm package
 * You're ready to go baby :)
 
 ## Recommendations
