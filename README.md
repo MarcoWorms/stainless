@@ -49,6 +49,7 @@ Clone the repo and:
 * __edit the Makefile__
 * __run npm install__
 * __make test__
+* __npm package? edit .gitignore to not ignore dist and lib__
 * You're ready to go baby :)
 
 ## Recommendations
