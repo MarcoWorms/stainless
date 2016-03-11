@@ -4,7 +4,7 @@
   "description": "Official stainless scaffold.",
   "main": "index.js",
   "browser": {
-    "index.js": "browser.js"
+    "index.js": "dist/bundle.js"
   },
   "author": "",
   "private": true,
@@ -71,6 +71,7 @@
     "bundle-collapser": "^1.2.1",
     "chai": "^3.5.0",
     "concat-with-sourcemaps": "^1.0.4",
+    "convert-source-map": "^1.2.0",
     "exorcist": "^0.4.0",
     "merge-source-map": "^1.0.1",
     "minifyify": "^7.3.2",
