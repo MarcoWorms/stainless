@@ -109,6 +109,7 @@ A list of recommended plugins.
 * conditional-compile => why: _dead code elimintation_
 * require-root-rewrite => why: _makes require easier to use_
 * closure-elimination => why: _better performance, great maintainer_
+* source-map-support => why: _automatic node.js sourcemap support_
 
 ## Other Recommended Plugins [↑](#table-of-contents)
 

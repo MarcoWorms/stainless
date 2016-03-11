@@ -36,6 +36,7 @@
     "babel-plugin-null-safe-accessor": "^0.1.2",
     "babel-plugin-operator-overload": "^2.0.0",
     "babel-plugin-require-root-rewrite": "^1.0.2",
+    "babel-plugin-source-map-support": "github:chocolateboy/babel-plugin-source-map-support#develop",
     "babel-plugin-strict-equality": "^1.0.0",
     "babel-plugin-syntax-async-functions": "^6.5.0",
     "babel-plugin-syntax-async-generators": "^6.5.0",

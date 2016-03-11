@@ -13,6 +13,8 @@ Drop what you want, keep what you like:
 * Browserify for working with the browser
 * Mocha, Chai and Sinon for testing, because I like them
 * Makefile for automation (gulp is not worth to me)
+* File concatenation with sourcemaps to enable better use of macros, inline
+functions and custom operators.
 
 #### Customization Notes
 
