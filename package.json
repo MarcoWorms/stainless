@@ -23,7 +23,8 @@
     "bluebird": "^3.3.4",
     "fast.js": "^0.1.1",
     "ramda": "^0.19.1",
-    "ramda-fantasy": "^0.4.1"
+    "ramda-fantasy": "^0.4.1",
+    "source-map-support": "^0.4.0"
   },
   "peerDependencies": {},
   "devDependencies": {
@@ -71,7 +72,6 @@
     "merge-source-map": "^1.0.1",
     "minifyify": "^7.3.2",
     "mocha": "^2.4.5",
-    "sinon": "^1.17.3",
-    "source-map-support": "^0.4.0"
+    "sinon": "^1.17.3"
   }
 }
