@@ -8,6 +8,7 @@ LIB = $(SRC:src/%.js=lib/%.js)
 CONCAT = node ./scripts/concat.js
 MERGE = node ./scripts/merge.js
 BABEL = node_modules/.bin/babel
+WATCH = node_modules/.bin/watch
 BROWSERIFY = node_modules/.bin/browserify
 
 ##
@@ -38,7 +39,7 @@ dist/bundle.js: dist
 # special rules
 ##
 
-.PHONY: build loc clean
+.PHONY: build loc clean watch
 
 .INTERMEDIATE: $(TMP)
 
@@ -55,3 +56,6 @@ loc:
 
 clean:
 	rm -rf lib tmp
+
+watch:
+	$(WATCH) "make build" ./src ./concat
