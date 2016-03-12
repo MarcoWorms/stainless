@@ -71,7 +71,7 @@
     "chai": "^3.5.0",
     "concat-with-sourcemaps": "^1.0.4",
     "convert-source-map": "^1.2.0",
-    "eslint": "^2.2.0",
+    "eslint": "2.2.0",
     "exorcist": "^0.4.0",
     "istanbul": "^0.4.2",
     "merge-source-map": "^1.0.1",
