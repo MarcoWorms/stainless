@@ -79,8 +79,9 @@ performance at cost of not being sane.
 ES2015, fantasy-land compatible.
 * [RxJS](https://github.com/Reactive-Extensions/RxJS): lazy reactive
 library for js.
-* [Bacon.js](https://github.com/baconjs/bacon.js) Functional reactive
+* [Bacon.js](https://github.com/baconjs/bacon.js): Functional reactive
 programming for js.
+* [Kefir](https://rpominov.github.io/kefir/): Faster alternative to Bacon .
 
 ## Unlicense
 
