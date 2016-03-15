@@ -80,6 +80,7 @@ library for js.
 * [Bacon.js](https://github.com/baconjs/bacon.js): Functional reactive
 programming for js.
 * [Kefir](https://rpominov.github.io/kefir/): Faster alternative to Bacon.
+* [Cellx](https://github.com/Riim/cellx): even faster than Kefir.
 * [Trine](https://github.com/jussi-kalliokoski/trine): Utility extension
 for bind operator.
 * [Mori extension](https://github.com/roobie/mori-ext): extension for using
