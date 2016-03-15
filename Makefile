@@ -80,3 +80,5 @@ coverage: build
 ##
 
 .PHONY: build loc clean watch browserify watchify lint coverage
+
+.SECONDARY: $(LIB)
