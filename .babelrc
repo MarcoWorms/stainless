@@ -31,13 +31,11 @@
         "implicit-return",
         "trace",
         "operator-overload",
-        "macros",
         "transform-flow-strip-types",
         ["transform-async-to-module-method", {
           "module": "bluebird",
           "method": "coroutine"
         }],
-        "closure-elimination",
       ]
     },
     "development": {
@@ -55,14 +53,12 @@
         "implicit-return",
         "trace",
         "operator-overload",
-        "macros",
         "typecheck",
         "transform-flow-comments",
         ["transform-async-to-module-method", {
           "module": "bluebird",
           "method": "coroutine"
         }],
-        "closure-elimination"
       ]
     }
   }

@@ -37,12 +37,11 @@ tmp/%.js: src/%.js tmp
 	$(CONCAT) $(INC) "$<"
 
 lib/%.js: tmp/%.js lib
-
 	$(BABEL) "$<" --out-file $@ --source-maps
 	$(MERGE) "$<.map" "$@.map"
 
 dist/bundle.js: $(LIB) dist
-	$(BUNDLE) -p bundle-collapser/plugin -d browser.js | \
+	$(BUNDLE) -p bundle-collapser/plugin -d lib/index.js | \
 		$(EXTERN) ./dist/bundle.js.map > ./dist/bundle.js
 
 ##
@@ -62,7 +61,7 @@ watchify: browserify
 	$(shell make watch & make just-watchify)
 
 just-watchify:
-	$(WATCHY) -v -p bundle-collapser/plugin -d browser.js \
+	$(WATCHY) -v -p bundle-collapser/plugin -d lib/index.js \
 		-o "$(EXTERN) dist/bundle.js.map > dist/bundle.js"
 
 loc:

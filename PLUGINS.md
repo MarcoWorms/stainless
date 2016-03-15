@@ -97,7 +97,6 @@ A list of recommended plugins.
 
 ### Third-party [↑](#table-of-contents)
 
-* macros => why: _fits functional style, great maintainer_
 * operator-overload => why: _fits functional style_
 * typecheck _- development only, before flow-comments_
 * implicit-return => why: _fits functional style_
@@ -105,7 +104,6 @@ A list of recommended plugins.
 * strict-equality => why: _enforces safer style_
 * conditional-compile => why: _dead code elimintation_
 * require-root-rewrite => why: _makes require easier to use_
-* closure-elimination => why: _better performance, great maintainer_
 * source-map-support => why: _automatic node.js sourcemap support_
 
 ## Other Recommended Plugins [↑](#table-of-contents)
@@ -136,3 +134,5 @@ A list of recommended plugins.
 * inline-functions => why: _outdated_
 * inline => why: _also outdated_
 * undeclared-variables-check => why: _not usable with node_
+* closure-elimination => why: _bugs async code_
+* macros => why: _many bugs, bind operator makes this useless_

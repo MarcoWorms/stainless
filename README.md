@@ -59,10 +59,10 @@ Other fun/useful functional programming packages:
 
 * [Sanctuary](https://github.com/plaid/sanctuary): slower but safer
 alternative to ramda-fantasy.
-* [Bilby.js](https://github.com/puffnfresh/bilby.js): from the creator of fantasy-land,
-kinda joins Ramda and algebraic data types into one complete library. Slower
-than sanctuary because of internal use of curry, simulated strong types and
-function overloading.
+* [Bilby.js](https://github.com/puffnfresh/bilby.js): from the creator of
+fantasy-land, kinda joins Ramda and algebraic data types into one complete
+library. Slower than sanctuary because of internal use of curry, simulated
+strong types and function overloading.
 * [Folktale](https://github.com/origamitower/folktale): repository for a
 reworked version of folktale, a great collection of algebraic types. The
 original folktale library was also somewhat slow, but faster than Sanctuary
@@ -81,7 +81,11 @@ ES2015, fantasy-land compatible.
 library for js.
 * [Bacon.js](https://github.com/baconjs/bacon.js): Functional reactive
 programming for js.
-* [Kefir](https://rpominov.github.io/kefir/): Faster alternative to Bacon .
+* [Kefir](https://rpominov.github.io/kefir/): Faster alternative to Bacon.
+* [Trine](https://github.com/jussi-kalliokoski/trine): Utility extension
+for bind operator.
+* [Mori extension](https://github.com/roobie/mori-ext): extension for using
+mori with the bind operator.
 
 ## Unlicense
 
