@@ -1,11 +1,4 @@
 {
-  "plugins": [["trace", {
-    "env": {
-      "production": {
-        "strip": true
-      }
-    }
-  }]],
   "env": {
     "production": {
       "presets": ["es2015", "stage-0"],
@@ -29,7 +22,6 @@
         "require-root-rewrite",
         "strict-equality",
         "implicit-return",
-        "trace",
         "operator-overload",
         "transform-flow-strip-types",
         ["transform-async-to-module-method", {
@@ -51,7 +43,6 @@
         "require-root-rewrite",
         "strict-equality",
         "implicit-return",
-        "trace",
         "operator-overload",
         "typecheck",
         "transform-flow-comments",
