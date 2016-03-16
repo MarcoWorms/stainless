@@ -44,7 +44,6 @@
     "babel-plugin-syntax-async-generators": "^6.5.0",
     "babel-plugin-syntax-flow": "^6.5.0",
     "babel-plugin-syntax-function-sent": "^6.5.0",
-    "babel-plugin-trace": "^1.0.0",
     "babel-plugin-transform-async-to-module-method": "^6.7.0",
     "babel-plugin-transform-flow-comments": "^6.7.0",
     "babel-plugin-transform-flow-strip-types": "^6.7.0",
