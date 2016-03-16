@@ -91,7 +91,7 @@ A list of recommended plugins.
 * merge-sibling-variables
 * minify-booleans
 * property-literals
-* remove-console _- drop when debugging with trace_
+* remove-console
 * remove-debugger
 * simplify-comparison-operators
 
@@ -100,7 +100,6 @@ A list of recommended plugins.
 * operator-overload => why: _fits functional style_
 * typecheck _- development only, before flow-comments_
 * implicit-return => why: _fits functional style_
-* trace => why: _better debug, great maintainer_
 * strict-equality => why: _enforces safer style_
 * conditional-compile => why: _dead code elimintation_
 * require-root-rewrite => why: _makes require easier to use_
