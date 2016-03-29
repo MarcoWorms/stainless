@@ -1,0 +1,7 @@
+[libs]
+./index.js
+../interfaces
+
+[options]
+module.name_mapper='^\~\/src/' -> '<PROJECT_ROOT>/'
+strip_root=true
