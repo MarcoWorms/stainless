@@ -22,7 +22,6 @@
         "require-root-rewrite",
         "strict-equality",
         "implicit-return",
-        "operator-overload",
         "transform-flow-strip-types",
         ["transform-async-to-module-method", {
           "module": "bluebird",
@@ -43,8 +42,6 @@
         "require-root-rewrite",
         "strict-equality",
         "implicit-return",
-        "operator-overload",
-        "typecheck",
         "transform-flow-comments",
         ["transform-async-to-module-method", {
           "module": "bluebird",
